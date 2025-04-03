@@ -113,27 +113,42 @@ print("Atividade 2: Operações corretas!")
 
 ## 5. Desafio
 
-**Desafio:**  
+### Desafio Parte 1: Corrija o Código Errado
+
+O código abaixo foi escrito para calcular a média de três números: 12, 18 e 24. Entretanto, a operação não está utilizando os parênteses de forma correta, o que gera um resultado equivocado.
+
+**Instrução:**  
+Corrija o código para que a média seja calculada corretamente e o valor 18 seja armazenado na variável `media_corrigida`.
+
+```python
+# Código com erros:
+media_errada = 12 + 18 + 24 / 3
+
+# Sua correção:
+media_corrigida = ...  # Corrija a operação para calcular a média corretamente
+
+# Verificação:
+assert media_corrigida == 18, "Desafio Parte 1: O valor de 'media_corrigida' deve ser 18."
+print("Desafio Parte 1: Código corrigido com sucesso!")
+```
+
+---
+
+### Desafio Parte 2: Crie uma Expressão Aritmética
+
 Crie uma expressão única que realize as seguintes operações em sequência:
-- Some os números 8 e 12.
-- Subtraia 5 do resultado.
-- Multiplique o resultado por 2.
-- Divida o resultado final por 5.
+1. Divida 100 por 4.
+2. Multiplique o resultado por 3.
+3. Some 5 ao resultado final.
 
 Atribua o valor final à variável `resultado_desafio`.
 
 ```python
-# Seu código aqui:
+resultado_desafio = ...  # Crie sua expressão única para realizar as operações descritas
 
-```
-
-
-**Verificação do Desafio:**
-
-```python
-# Verificação do desafio
-assert resultado_desafio == 6, "Desafio: O valor de 'resultado_desafio' deve ser 6."
-print("Desafio: Operação realizada corretamente!")
+# Verificação:
+assert resultado_desafio == 80, "Desafio Parte 2: O valor de 'resultado_desafio' deve ser 80."
+print("Desafio Parte 2: Expressão criada com sucesso!")
 ```
 
 ---
